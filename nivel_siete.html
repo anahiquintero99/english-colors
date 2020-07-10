@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>English Colors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	    <script> 
+			function success(){ 
+				Swal.fire('Good job!','Continue!','success')
+			}
+			function error(){ 
+				Swal.fire('Incorrect!','Try again!','error')
+			}
+		</script>	
+
+		<style>
+			input[type="radio"] {
+				display: inline-block;
+				margin-right: 0;
+				opacity: 1;
+				-webkit-appearance: radio;
+				float: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">English Colors</span>
+								</a>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Welcome to English Colors, This is your seven level.</h1>
+								<p> Professions </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+										<img onclick="dentist_audio.play()" src="images/profesion1.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="dentist_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-dentist.ogg"></audio>
+										<label>
+                                            <input type="radio" name="answer" id="Doctor">
+                                            Doctor
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Dentista">
+                                            Dentista
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Veterinario">
+                                            Veterinario
+                                          </label>
+                                          <button onclick="Dentista.checked ? success() : error() ">Evaluate</button>
+		                                <div class="content">
+										</div> 
+								</article>
+								<article class="style2">
+										<img onclick="coach_audio.play()" src="images/profesion3.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="coach_audio" src="http://packs.shtooka.net/eng-balm-emmanuel/ogg/eng-3f596dcc.ogg"></audio>
+										<label>
+                                            <input type="radio" name="answer1" id="Entrenador">
+                                            Entrenador
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer1" id="Maestro">
+                                            Maestro
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer1" id="Albañil">
+                                            Albañil
+                                          </label>
+                                          <button onclick="Entrenador.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+									<img onclick="fireman_audio.play()" src="images/profesion6.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="fireman_audio" src="http://packs.shtooka.net/eng-balm-judith/ogg/eng-43f80267.ogg"></audio>
+									<label>
+										<input type="radio" name="answer2" id="Policia">
+										Policia
+									  </label>
+									  <label>
+										<input type="radio" name="answer2" id="Plomero">
+										Plomero
+									  </label>
+									  <label>
+										<input type="radio" name="answer2" id="Bombero">
+										Bombero
+									  </label>
+									  <button onclick="Bombero.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style4">
+										<img onclick="reporter_audio.play()" src="images/profesion4.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="reporter_audio" src="http://packs.shtooka.net/eng-wims-mary/ogg/eng-76d6e0f2.ogg"></audio>
+										<label>
+											<input type="radio" name="answer3" id="Reportero">
+											Reportero
+										  </label>
+										  <label>
+											<input type="radio" name="answer3" id="Entrevistador">
+											Entrevistador
+										  </label>
+										  <label>
+											<input type="radio" name="answer3" id="Jardinero">
+											Jardinero
+										  </label>
+										  <button onclick="Reportero.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style5">
+										<img onclick="seller_audio.play()" src="images/profesion5.jpeg" alt="" style="cursor: pointer;" width=300 />
+									<audio id="seller_audio" src="http://packs.shtooka.net/eng-wims-mary/ogg/eng-fb1ad3fc.ogg"></audio>
+									<label>
+										<input type="radio" name="answer4" id="Vendedor">
+										Vendedor
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Contador">
+										Contador
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Taquero">
+										Taquero
+									  </label>
+									  <button onclick="Vendedor.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style6">
+										<img onclick="judge_audio.play()" src="images/profesion9.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="judge_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-judge.ogg"></audio>
+										<label>
+											<input type="radio" name="answer5" id="Abogado">
+											Abogado
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Cantante">
+											Cantante
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Juez">
+											Juez
+										  </label>
+										  <button onclick="Juez.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style2">
+										<img onclick="architec_audio.play()" src="images/profesion7.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="architec_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-architect.ogg"></audio>
+										<label>
+											<input type="radio" name="answer6" id="Albañil1">
+											Albañil
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Arquitecto">
+											Arquitecto
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Diseñador">
+											Diseñador
+										  </label>
+										  <button onclick="Arquitecto.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+										<img onclick="doctor_audio.play()" src="images/profesion10.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="doctor_audio" src="http://packs.shtooka.net/eng-balm-judith/ogg/eng-1fc0f36a.ogg"></audio>
+										<label>
+											<input type="radio" name="answer7" id="Doctor1">
+											Doctor
+										  </label>
+										  <label>
+											<input type="radio" name="answer7" id="Cirujano">
+											Cirujano
+										  </label>
+										  <label>
+											<input type="radio" name="answer7" id="Enfermera">
+											Enfermera
+										  </label>
+										  <button onclick="Doctor1.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style1">
+										<img onclick="policeman_audio.play()" src="images/profesion11.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="policeman_audio" src="http://packs.shtooka.net/eng-balm-emmanuel/ogg/eng-38055909.ogg"></audio>
+										<label>
+											<input type="radio" name="answer8" id="Bombero2">
+											Bombero
+										  </label>
+										  <label>
+											<input type="radio" name="answer8" id="Policia1">
+											Policia
+										  </label>
+										  <label>
+											<input type="radio" name="answer8" id="Guardia">
+											Guardia
+										  </label>
+										  <button onclick="Policia1.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>	    
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

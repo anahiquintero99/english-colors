@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo</title>
+  </head>
+  <body>
+    <h1 id="titulo">Mi primer programa en JS</h1>
+    <label>
+      Número 1:
+      <input id="numeroUno" />
+    </label>
+    <br>
+    <label>
+      Número 2:
+      <input id="numeroDos" />
+    </label>
+    <br>
+    <button id="boton">Sumar</button>
+    <br>
+    El resultado es: <span id="resultadoSpan"></span>
+
+    <script>
+      boton.addEventListener('click', function() {
+        // numeroUno.value => '1'
+        // Number(numeroUno.value) => 1
+        const numero1 = Number(numeroUno.value)
+        const numero2 = Number(numeroDos.value)
+        const resultado = numero1 + numero2
+        resultadoSpan.textContent = resultado
+      })
+    </script>
+  </body>
+</html>

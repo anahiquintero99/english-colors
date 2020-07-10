@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>English Colors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	    <script> 
+			function success(){ 
+				Swal.fire('Good job!','Continue!','success')
+			}
+			function error(){ 
+				Swal.fire('Incorrect!','Try again!','error')
+			}
+		</script>	
+
+		<style>
+			input[type="radio"] {
+				display: inline-block;
+				margin-right: 0;
+				opacity: 1;
+				-webkit-appearance: radio;
+				float: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">English Colors</span>
+								</a>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Welcome to English Colors, This is your four level.</h1>
+								<p> Animals </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+										<img onclick="brazil_audio.play()" src="images/paises1.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="brazil_audio" src=""></audio>
+										<label>
+                                            <input type="radio" name="answer" id="EU">
+                                            EU
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Brazil">
+                                            Brazil
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Colombia">
+                                            Colombia
+                                          </label>
+                                          <button onclick="Brazil.checked ? success() : error() ">Evaluate</button>
+		                                <div class="content">
+										</div> 
+								</article>
+								<article class="style2">
+										<img onclick="cuba_audio.play()" src="images/paises2.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="cuba_audio" src=""></audio>
+										<label>
+                                            <input type="radio" name="answer1" id="Cuba">
+                                            Cuba
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer1" id="Ecuador">
+                                            Ecuador
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer1" id="CostaRica">
+                                            Costa Rica
+                                          </label>
+                                          <button onclick="Cuba.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+									<img onclick="italy_audio.play()" src="images/paises3.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="italy_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer2" id="Roma">
+										Roma
+									  </label>
+									  <label>
+										<input type="radio" name="answer2" id="Grecia">
+										Grecia
+									  </label>
+									  <label>
+										<input type="radio" name="answer2" id="Italia">
+										Italia
+									  </label>
+									  <button onclick="Italia.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style4">
+										<img onclick="finland_audio.play()" src="images/paises4.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="finland_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer3" id="Filipinas">
+											Filipinas
+										  </label>
+										  <label>
+											<input type="radio" name="answer3" id="Filandia">
+											Filandia
+										  </label>
+										  <label>
+											<input type="radio" name="answer3" id="Francia">
+											Francia
+										  </label>
+										  <button onclick="Filandia.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style5">
+										<img onclick="mexico_audio.play()" src="images/paises5.jpeg" alt="" style="cursor: pointer;" width=300 />
+									<audio id="mexico_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer4" id="Mexico">
+										Mexico
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Guatemala">
+										Guatemala
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Venezuela">
+										Venezuela
+									  </label>
+									  <button onclick="Mexico.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style6">
+										<img onclick="scotland_audio.play()" src="images/paises6.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="scotland_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer5" id="Europa">
+											Europa
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="España">
+											España
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Escocia">
+											Escocia
+										  </label>
+										  <button onclick="Escocia.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style2">
+										<img onclick="ireland_audio.play()" src="images/paises7.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="ireland_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer6" id="Indonesia">
+											Indonesia
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Irlanda">
+											Irlanda
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Rusia">
+											Rusia
+										  </label>
+										  <button onclick="Irlanda.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+										<img onclick="egypt_audio.play()" src="images/paises8.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="egypt_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer7" id="Desierto">
+											Desierto
+										  </label>
+										  <label>
+											<input type="radio" name="answer7" id="Marruecos">
+											Marruecos
+										  </label>
+										  <label>
+											<input type="radio" name="answer7" id="Egipto">
+											Egipto
+										  </label>
+										  <button onclick="Egipto.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style1">
+										<img onclick="denmark_audio.play()" src="images/paises9.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="denmark_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer8" id="Dinamarca">
+											Dinamarca
+										  </label>
+										  <label>
+											<input type="radio" name="answer8" id="Dominica">
+											Dominica
+										  </label>
+										  <label>
+											<input type="radio" name="answer8" id="Suecia">
+											Suecia
+										  </label>
+										  <button onclick="Dinamarca.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+							<article class="style6">
+									<img onclick="canada_audio.play()" src="images/paises10.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="canada_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer9" id="Corea">
+										Corea
+									  </label>
+									  <label>
+										<input type="radio" name="answer9" id="Canada">
+										Canada
+									  </label>
+									  <label>
+										<input type="radio" name="answer9" id="Colombia1">
+										Colombia
+									  </label>
+									  <button onclick="Canada.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style2">
+									<img onclick="thailand_audio.play()" src="images/paises11.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="thailand_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer10" id="Taiwan">
+										Taiwan
+									  </label>
+									  <label>
+										<input type="radio" name="answer10" id="Tonga">
+										Tonga
+									  </label>
+									  <label>
+										<input type="radio" name="answer10" id="Tailandia">
+										Tailandia
+									  </label>
+									  <button onclick="Tailandia.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style3">
+									<img onclick="england_audio.play()" src="images/paises12.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="england_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer11" id="India">
+										India
+									  </label>
+									  <label>
+										<input type="radio" name="answer11" id="Inglaterra">
+										Inglaterra
+									  </label>
+									  <label>
+										<input type="radio" name="answer11" id="Islandia">
+										Islandia
+									  </label>
+									  <button onclick="Inglaterra.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>			    
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

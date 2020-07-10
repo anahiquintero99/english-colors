@@ -1,0 +1,395 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>English Colors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+		<script> 
+			function success(){ 
+				Swal.fire('Good job!','Continue!','success')
+			}
+			function error(){ 
+				Swal.fire('Incorrect!','Try again!','error')
+			}
+		</script>	
+
+		<style>
+			input[type="radio"] {
+				display: inline-block;
+				margin-right: 0;
+				opacity: 1;
+				-webkit-appearance: radio;
+				float: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">English Colors</span>
+								</a>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Welcome to English Colors, This is your third level.</h1>
+								<p> Animals </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+										<img onclick="frog_audio.play()" src="images/animal1.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="frog_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-frog.ogg"></audio>
+										<label>
+											<input type="radio" name="answer1" id="Rana">
+											Rana
+										  </label>
+										  <label>
+											<input type="radio" name="answer1" id="Sapo">
+											Sapo
+										  </label>
+										  <label>
+											<input type="radio" name="answer1" id="Vibora">
+											Vibora
+										  </label>
+										  <button onclick="Rana.checked ? success() : error() ">Evaluate</button>
+		                                <div class="content">
+										</div> 
+								</article>
+								<article class="style2">
+										<img onclick="fox_audio.play()" src="images/animal2.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="fox_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-fox.ogg"></audio>
+										<label>
+											<input type="radio" name="answer2" id="Conejo">
+											Conejo
+										  </label>
+										  <label>
+											<input type="radio" name="answer2" id="Zorrillo">
+											Zorrillo
+										  </label>
+										  <label>
+											<input type="radio" name="answer2" id="Zorro">
+											Zorro
+										  </label>
+										  <button onclick="Zorro.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+									<img onclick="deer_audio.play()" src="images/animal4.jpeg" alt="" style="cursor: pointer;" width=230/>
+									<audio id="deer_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-deer.ogg"></audio>
+									<label>
+										<input type="radio" name="answer3" id="Venado">
+										Venado
+									  </label>
+									  <label>
+										<input type="radio" name="answer3" id="Ciervo">
+										Ciervo
+									  </label>
+									  <label>
+										<input type="radio" name="answer3" id="Alce">
+										Alce
+									  </label>
+									  <button onclick="Ciervo.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style4">
+										<img onclick="turtle_audio.play()" src="images/animal5.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="turtle_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-turtle.ogg"></audio>
+										<label>
+											<input type="radio" name="answer4" id="Tortuga">
+											Tortuga
+										  </label>
+										  <label>
+											<input type="radio" name="answer4" id="Ballena">
+											Ballena
+										  </label>
+										  <label>
+											<input type="radio" name="answer4" id="Delfin">
+											Delfin
+										  </label>
+										  <button onclick="Tortuga.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style5">
+										<img onclick="cow_audio.play()" src="images/animal6.jpeg" alt="" style="cursor: pointer;" width=300 />
+									<audio id="cow_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-cow.ogg"></audio>
+									<label>
+										<input type="radio" name="answer4" id="Burro">
+										Burro
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Vaca">
+										Vaca
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Caballo">
+										Caballo
+									  </label>
+									  <button onclick="Vaca.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style6">
+										<img onclick="pig_audio.play()" src="images/animal9.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="pig_audio" src="http://packs.shtooka.net/eng-wims-mary/ogg/eng-cc599557.ogg"></audio>
+										<label>
+											<input type="radio" name="answer5" id="Cerdo">
+											Cerdo
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Pollo">
+											Pollo
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Gallina">
+											Gallina
+										  </label>
+										  <button onclick="Cerdo.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style2">
+										<img onclick="panda_audio.play()" src="images/animal10.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="panda_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-panda.ogg"></audio>
+										<label>
+											<input type="radio" name="answer6" id="Perezoso">
+											Perezoso
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Paloma">
+											Paloma
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="OsoPanda">
+											Oso Panda
+										  </label>
+										  <button onclick="OsoPanda.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+										<img onclick="duck_audio.play()" src="images/animal11.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="duck_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-duck.ogg"></audio>
+										<label>
+											<input type="radio" name="answer7" id="Ganzo">
+											Ganzo
+										  </label>
+										  <label>
+											<input type="radio" name="answer7" id="Pato">
+											Pato
+										  </label>
+										  <label>
+											<input type="radio" name="answer7" id="Cisne">
+											Cisne
+										  </label>
+										  <button onclick="Pato.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style1">
+										<img onclick="sheep_audio.play()" src="images/animal12.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="sheep_audio" src="http://packs.shtooka.net/eng-wims-mary/ogg/eng-805155fb.ogg"></audio>
+										<label>
+											<input type="radio" name="answer10" id="Becerro">
+											Becerro
+										  </label>
+										  <label>
+											<input type="radio" name="answer10" id="Oveja">
+											Oveja
+										  </label>
+										  <label>
+											<input type="radio" name="answer10" id="Cordero">
+											Cordero
+										  </label>
+										  <button onclick="Oveja.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+							<article class="style6">
+									<img onclick="rabbit_audio.play()" src="images/animal13.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="rabbit_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-rabbit.ogg"></audio>
+									<label>
+										<input type="radio" name="answer8" id="Zorro1">
+										Zorro
+									  </label>
+									  <label>
+										<input type="radio" name="answer8" id="Liebre">
+										Liebre
+									  </label>
+									  <label>
+										<input type="radio" name="answer8" id="Conejo1">
+										Conejo
+									  </label>
+									  <button onclick="Conejo1.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style2">
+									<img onclick="turkey_audio.play()" src="images/animal14.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="turkey_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-turkey.ogg"></audio>
+									<label>
+										<input type="radio" name="answer9" id="Gallo">
+										Gallo
+									  </label>
+									  <label>
+										<input type="radio" name="answer9" id="Pavo">
+										Pavo
+									  </label>
+									  <label>
+										<input type="radio" name="answer9" id="Gallina1">
+										Gallina
+									  </label>
+									  <button onclick="Pavo.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style3">
+									<img onclick="cat_audio.play()" src="images/animal15.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="cat_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-cat.ogg"></audio>
+									<label>
+										<input type="radio" name="answer10" id="Gato">
+										Gato
+									  </label>
+									  <label>
+										<input type="radio" name="answer10" id="Perro">
+										Perro
+									  </label>
+									  <label>
+										<input type="radio" name="answer10" id="Perico">
+										Perico
+									  </label>
+									  <button onclick="Gato.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style1">
+									<img onclick="hen_audio.play()" src="images/animal16.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="hen_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-hen.ogg"></audio>
+									<label>
+										<input type="radio" name="answer11" id="Gavilan">
+										Gavilan
+									  </label>
+									  <label>
+										<input type="radio" name="answer11" id="Gallo">
+										Gallo
+									  </label>
+									  <label>
+										<input type="radio" name="answer11" id="Gallina3">
+										Gallina
+									  </label>
+									  <button onclick="Gallina3.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style6">
+									<img onclick="rooster_audio.play()" src="images/animal17.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="rooster_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-rooster.ogg"></audio>
+									<label>
+										<input type="radio" name="answer12" id="Gallo3">
+										Gallo
+									  </label>
+									  <label>
+										<input type="radio" name="answer12" id="PavoReal">
+										Pavo Real
+									  </label>
+									  <label>
+										<input type="radio" name="answer12" id="Gaviota">
+										Gaviota
+									  </label>
+									  <button onclick="Gallo3.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>
+							<article class="style2">
+									<img onclick="dog_audio.play()" src="images/animal18.jpeg" alt="" style="cursor: pointer;" width=350/>
+									<audio id="dog_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-dog.ogg"></audio>
+									<label>
+										<input type="radio" name="answer13" id="Firulais">
+										Firulais
+									  </label>
+									  <label>
+										<input type="radio" name="answer13" id="Pez">
+										Pez
+									  </label>
+									  <label>
+										<input type="radio" name="answer13" id="Perro1">
+										Perro
+									  </label>
+									  <button onclick="Perro1.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+							</article>						    
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

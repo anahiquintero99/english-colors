@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>English Colors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	    <script> 
+			function success(){ 
+				Swal.fire('Good job!','Continue!','success')
+			}
+			function error(){ 
+				Swal.fire('Incorrect!','Try again!','error')
+			}
+		</script>	
+
+		<style>
+			input[type="radio"] {
+				display: inline-block;
+				margin-right: 0;
+				opacity: 1;
+				-webkit-appearance: radio;
+				float: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">English Colors</span>
+								</a>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Welcome to English Colors, This is your nine level.</h1>
+								<p> Personality </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+										<img onclick="hungry_audio.play()" src="images/emociones1.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="hungry_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-hungry.ogg"></audio>
+										<label>
+                                            <input type="radio" name="answer" id="Hambriento">
+                                            Hambriento
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Sediento">
+                                            Sediento
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Aburrido">
+                                            Aburrido
+                                          </label>
+                                          <button onclick="Hambriento.checked ? success() : error() ">Evaluate</button>
+		                                <div class="content">
+										</div> 
+								</article>
+								<article class="style2">
+										<img onclick="thirsty_audio.play()" src="images/emociones2.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="thirsty_audio" src="http://packs.shtooka.net/eng-wims-mary/ogg/eng-00c57839.ogg"></audio>
+										<label>
+											<input type="radio" name="answer1" id="Hambriento2">
+											Hambriento
+										  </label>
+										  <label>
+											<input type="radio" name="answer1" id="Alegre">
+											Alegre
+										  </label>
+										  <label>
+											<input type="radio" name="answer1" id="sediento2">
+											sediento
+										  </label>
+										  <button onclick="sediento2.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+									<img onclick="sick_audio.play()" src="images/emociones3.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<audio id="sick_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-sick.ogg"></audio>
+									<label>
+										<input type="radio" name="answer2" id="Sano">
+										Sano
+									  </label>
+									  <label>
+										<input type="radio" name="answer2" id="Enfermo">
+										Enfermo
+									  </label>
+									  <label>
+										<input type="radio" name="answer2" id="Triste">
+										Triste
+									  </label>
+									  <button onclick="Enfermo.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style4">
+										<img onclick="tired_audio.play()" src="images/emociones4.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="tired_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-tired.ogg"></audio>
+										<label>
+											<input type="radio" name="answer3" id="Asustado">
+											Asustado
+										  </label>
+										  <label>
+											<input type="radio" name="answer3" id="Alegre1">
+											Alegre
+										  </label>
+										  <label>
+											<input type="radio" name="answer3" id="Cansado">
+											Cansado
+										  </label>
+										  <button onclick="Cansado.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style5">
+										<img onclick="worried_audio.play()" src="images/emociones5.jpeg" alt="" style="cursor: pointer;" width=300 />
+									<audio id="worried_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-worried.ogg"></audio>
+									<label>
+										<input type="radio" name="answer4" id="Asustado1">
+										Asustado
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Sorprendido">
+										Sorprendido
+									  </label>
+									  <label>
+										<input type="radio" name="answer4" id="Preocupado">
+										Preocupado
+									  </label>
+									  <button onclick="Preocupado.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style6">
+										<img onclick="sleepy_audio.play()" src="images/emociones6.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<audio id="sleepy_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-sleepy.ogg"></audio>
+										<label>
+											<input type="radio" name="answer5" id="Soñoliento">
+											Soñoliento
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Dormir">
+											Dormir
+										  </label>
+										  <label>
+											<input type="radio" name="answer5" id="Cansado1">
+											Cansado
+										  </label>
+										  <button onclick="Soñoliento.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style2">
+										<img onclick="sad_audio.play()" src="images/emociones7.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="sad_audio" src="http://packs.shtooka.net/eng-wims-mary/ogg/eng-9fcff0bc.ogg"></audio>
+										<label>
+											<input type="radio" name="answer6" id="Llorar">
+											Llorar
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Triste1">
+											Triste
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Solitario">
+											Solitario
+										  </label>
+										  <button onclick="Triste1.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+										<img onclick="happy_audio.play()" src="images/emociones8.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="happy_audio" src="http://packs.shtooka.net/eng-balm-judith/ogg/eng-beed83c9.ogg"></audio>
+										<label>
+											<input type="radio" name="answer6" id="Relajado">
+											Relajado
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Positivo">
+											Positivo
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Feliz">
+											Feliz
+										  </label>
+										  <button onclick="Feliz.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style1">
+										<img onclick="angry_audio.play()" src="images/emociones9.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<audio id="angry_audio" src="http://packs.shtooka.net/eng-wcp-us/ogg/En-us-angry.ogg"></audio>
+										<label>
+											<input type="radio" name="answer6" id="Disgusto">
+											Disgusto
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Enojado">
+											Enojado
+										  </label>
+										  <label>
+											<input type="radio" name="answer6" id="Odio">
+											Odio
+										  </label>
+										  <button onclick="Enojado.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>	    
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

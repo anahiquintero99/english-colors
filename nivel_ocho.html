@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>English Colors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	    <script> 
+			function success(){ 
+				Swal.fire('Good job!','Continue!','success')
+			}
+			function error(){ 
+				Swal.fire('Incorrect!','Try again!','error')
+			}
+		</script>	
+
+		<style>
+			input[type="radio"] {
+				display: inline-block;
+				margin-right: 0;
+				opacity: 1;
+				-webkit-appearance: radio;
+				float: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">English Colors</span>
+								</a>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Welcome to English Colors, This is your eight level.</h1>
+								<p> Activities </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+										<img onclick="encender_audio.play()" src="images/actividades1.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<label>
+                                            <input type="radio" name="answer" id="Encender">
+                                            Encender
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Apagar">
+                                            Apagar
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer" id="Levantar">
+                                            Levantar
+                                          </label>
+                                          <button onclick="Encender.checked ? success() : error() ">Evaluate</button>
+		                                <div class="content">
+										</div> 
+								</article>
+								<article class="style2">
+										<img onclick="despertar_audio.play()" src="images/actividades2.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<label>
+                                            <input type="radio" name="answer2" id="Alejar">
+                                            Alejar
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer2" id="Apagar1">
+                                            Apagar
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer2" id="Despertar1">
+                                            Despertar
+                                          </label>
+                                          <button onclick="Despertar1.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+									<img onclick="alejar_audio.play()" src="images/actividades3.jpeg" alt="" style="cursor: pointer;" width=300/>
+									<label>
+                                            <input type="radio" name="answer3" id="Alejar2">
+                                            Alejar
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer3" id="Recoger1">
+                                            Recoger
+                                          </label>
+                                          <label>
+                                            <input type="radio" name="answer3" id="Enceder1">
+                                            Encender
+                                          </label>
+                                          <button onclick="Alejar2.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style4">
+										<img onclick="apagar_audio.play()" src="images/actividades4.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<label>
+												<input type="radio" name="answer4" id="Foco">
+												Foco
+											  </label>
+											  <label>
+												<input type="radio" name="answer4" id="Apagar2">
+												Apagar
+											  </label>
+											  <label>
+												<input type="radio" name="answer4" id="Luz">
+												Luz
+											  </label>
+											  <button onclick="Apagar2.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style5">
+										<img onclick="recoger_audio.play()" src="images/actividades5.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<label>
+												<input type="radio" name="answer5" id="Libro">
+												Libro
+											  </label>
+											  <label>
+												<input type="radio" name="answer5" id="Niño">
+												Niño
+											  </label>
+											  <label>
+												<input type="radio" name="answer5" id="Recoger2">
+												Recoger
+											  </label>
+											  <button onclick="Recoger2.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style6">
+										<img onclick="levantarse_audio.play()" src="images/actividades6.jpeg" alt="" style="cursor: pointer;" width=300 />
+										<label>
+												<input type="radio" name="answer6" id="Levantarse">
+												Levantarse
+											  </label>
+											  <label>
+												<input type="radio" name="answer6" id="Vestido">
+												Vestido
+											  </label>
+											  <label>
+												<input type="radio" name="answer6" id="Mujer">
+												Mujer
+											  </label>
+											  <button onclick="Levantarse.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style2">
+										<img onclick="sentarse_audio.play()" src="images/actividades7.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<label>
+												<input type="radio" name="answer7" id="Silla">
+												Silla
+											  </label>
+											  <label>
+												<input type="radio" name="answer7" id="Sentarse">
+												Sentarse
+											  </label>
+											  <label>
+												<input type="radio" name="answer7" id="Levantarse1">
+												Levantarse
+											  </label>
+											  <button onclick="Sentarse.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+										<img onclick="lanzar_audio.play()" src="images/actividades8.jpeg" alt="" style="cursor: pointer;" width=300/>
+										<label>
+												<input type="radio" name="answer8" id="Bote">
+												Bote de basura
+											  </label>
+											  <label>
+												<input type="radio" name="answer8" id="Bailar">
+												Bailar
+											  </label>
+											  <label>
+												<input type="radio" name="answer8" id="Lanzar">
+												Lanzar
+											  </label>
+											  <button onclick="Lanzar.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>    
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
