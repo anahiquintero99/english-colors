@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>English Colors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	    <script> 
+			function success(){ 
+				Swal.fire('Good job!','Continue!','success')
+			}
+			function error(){ 
+				Swal.fire('Incorrect!','Try again!','error')
+			}
+		</script>	
+
+		<style>
+			input[type="radio"] {
+				display: inline-block;
+				margin-right: 0;
+				opacity: 1;
+				-webkit-appearance: radio;
+				float: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">English Colors</span>
+								</a>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Welcome to English Colors, This is your four level.</h1>
+								<p> My Body </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+										<img onclick="estomago_audio.play()" src="images/body/1.png" alt="" style="cursor: pointer;" width=300/>
+										<audio id="estomago_audio" src=""></audio>
+										<label>
+                      <input type="radio" name="answer" id="Estomago">
+                      Estomago
+                    </label>
+                    <label>
+                      <input type="radio" name="answer" id="Ombligo">
+                      Ombligo
+                    </label>
+                    <label>
+                      <input type="radio" name="answer" id="Panza">
+                      Panza
+                    </label>
+                    <button onclick="Estomago.checked ? success() : error() ">Evaluate</button>
+		                <div class="content">
+									  </div> 
+								</article>
+								<article class="style2">
+										<img onclick="hombros_audio.play()" src="images/body/2.png" alt="" style="cursor: pointer;" width=300/>
+										<audio id="hombros_audio" src=""></audio>
+										<label>
+                      <input type="radio" name="answer1" id="Brazos">
+                      Brazos
+                    </label>
+                    <label>
+                      <input type="radio" name="answer1" id="Manos">
+                      Manos
+                    </label>
+                    <label>
+                      <input type="radio" name="answer1" id="Hombros">
+                      Hombros
+                    </label>
+                    <button onclick="Hombros.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+									<img onclick="cabello_audio.play()" src="images/body/3.png" alt="" style="cursor: pointer;" width=300/>
+									<audio id="cabello_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer2" id="Peluca">
+										Peluca
+									</label>
+									<label>
+										<input type="radio" name="answer2" id="Cabello">
+										Cabello
+								  </label>
+									<label>
+										<input type="radio" name="answer2" id="Cerebro">
+										Cerebro
+									</label>
+									<button onclick="Cabello.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+								</article>
+								<article class="style4">
+										<img onclick="ojo_audio.play()" src="images/body/4.png" alt="" style="cursor: pointer;" width=300 />
+										<audio id="ojo_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer3" id="Ojo">
+											Ojo
+										</label>
+										<label>
+											<input type="radio" name="answer3" id="Pestañas">
+											Pestañas
+										</label>
+										<label>
+											<input type="radio" name="answer3" id="Cejas">
+											Cejas
+									  </label>
+									  <button onclick="Ojo.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style5">
+										<img onclick="uñas_audio.play()" src="images/body/5.png" alt="" style="cursor: pointer;" width=300 />
+									<audio id="uñas_audio" src=""></audio>
+									<label>
+										<input type="radio" name="answer4" id="Dedos">
+										Dedos
+									</label>
+									<label>
+										<input type="radio" name="answer4" id="Manos">
+										Manos
+									</label>
+								  <label>
+										<input type="radio" name="answer4" id="Uñas">
+										Uñas
+									</label>
+								  <button onclick="Uñas.checked ? success() : error() ">Evaluate</button>
+									<div class="content">
+									</div>
+								</article>
+								<article class="style6">
+										<img onclick="cabeza_audio.play()" src="images/body/6.png" alt="" style="cursor: pointer;" width=300 />
+										<audio id="cabeza_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer5" id="Cabeza">
+											Cabeza
+										</label>
+									  <label>
+											<input type="radio" name="answer5" id="Peluca">
+											Peluca
+										</label>
+									  <label>
+											<input type="radio" name="answer5" id="Rostro">
+											Rostro
+										</label>
+									  <button onclick="Cabeza.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style2">
+										<img onclick="dedo_audio.play()" src="images/body/7.png" alt="" style="cursor: pointer;" width=300/>
+										<audio id="dedo_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer6" id="Manos">
+											Manos
+										</label>
+										<label>
+											<input type="radio" name="answer6" id="Dedo">
+											Dedo
+										</label>
+										<label>
+											<input type="radio" name="answer6" id="Uña">
+											Uña
+										</label>
+										<button onclick="Dedo.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style3">
+										<img onclick="pies_audio.play()" src="images/body/8.png" alt="" style="cursor: pointer;" width=300/>
+										<audio id="pies_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer7" id="Pies">
+											Pies
+										</label>
+									  <label>
+											<input type="radio" name="answer7" id="Piernas">
+											Piernas
+										</label>
+									  <label>
+											<input type="radio" name="answer7" id="Dedopie">
+											Dedo del pie
+										</label>
+									  <button onclick="Pies.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+								<article class="style1">
+										<img onclick="lengua_audio.play()" src="images/body/9.png" alt="" style="cursor: pointer;" width=300/>
+										<audio id="lengua_audio" src=""></audio>
+										<label>
+											<input type="radio" name="answer8" id="Boca">
+											Boca
+										</label>
+									  <label>
+											<input type="radio" name="answer8" id="Sonrisa">
+											Sonrisa
+									  </label>
+									  <label>
+											<input type="radio" name="answer8" id="Lengua">
+											Lengua
+									  </label>
+									  <button onclick="Lengua.checked ? success() : error() ">Evaluate</button>
+										<div class="content">
+										</div>
+								</article>
+                <article class="style6">
+                    <img onclick="brazo_audio.play()" src="images/body/10.png" alt="" style="cursor: pointer;" width=300/>
+                    <audio id="brazo_audio" src=""></audio>
+                    <label>
+                      <input type="radio" name="answer9" id="Manos">
+                      Manos
+                    </label>
+                    <label>
+                      <input type="radio" name="answer9" id="Brazo">
+                      Brazo
+                    </label>
+                    <label>
+                      <input type="radio" name="answer9" id="Codo">
+                      Codo
+                    </label>
+                    <button onclick="Brazo.checked ? success() : error() ">Evaluate</button>
+                    <div class="content">
+                    </div>
+                </article>
+                <article class="style2">
+                    <img onclick="mano_audio.play()" src="images/body/11.png" alt="" style="cursor: pointer;" width=300/>
+                    <audio id="mano_audio" src=""></audio>
+                    <label>
+                      <input type="radio" name="answer10" id="Mano">
+                      Mano
+                    </label>
+                    <label>
+                      <input type="radio" name="answer10" id="Uña">
+                      Uña
+                    </label>
+                    <label>
+                      <input type="radio" name="answer10" id="Dedosmano">
+                      Dedos de la mano
+                    </label>
+                    <button onclick="Mano.checked ? success() : error() ">Evaluate</button>
+                    <div class="content">
+                    </div>
+                </article>	    
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
